@@ -1,0 +1,20 @@
+---
+homebrew_installed_packages:
+  - bash
+  - chezmoi
+  - git
+  - gh
+  - n
+  - neovim
+  - ripgrep
+  - the_silver_searcher
+
+homebrew_cask_apps:
+  - 1password
+  - firefox
+  - kitty
+  - mullvadvpn
+  - rectangle
+  - spotify
+  - the_unarchiver
+  - visual-studio-code
