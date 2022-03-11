@@ -11,10 +11,18 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - 1password
+  - bbedit
+  - discord
   - firefox
+  - google-chrome
+  - google-drive
+  - iina
   - kitty
   - mullvadvpn
+  - plex
+  - postman
+  - qbitorrent
   - rectangle
   - spotify
-  - the_unarchiver
+  - the-unarchiver
   - visual-studio-code

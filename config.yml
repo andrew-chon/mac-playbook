@@ -22,14 +22,13 @@ homebrew_cask_apps:
   - google-drive
   - iina
   - kitty
-  - microsoft-office
   - mullvadvpn
   - plex
   - postman
   - qbitorrent
   - rectangle
   - spotify
-  - the_unarchiver
+  - the-unarchiver
   - visual-studio-code
 
 mas_email: andrewdchon@gmail.com
