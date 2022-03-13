@@ -1,8 +1,4 @@
 ---
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-
 homebrew_installed_packages:
   - bash
   - chezmoi
@@ -22,19 +18,11 @@ homebrew_cask_apps:
   - google-drive
   - iina
   - kitty
-  - microsoft-office
   - mullvadvpn
   - plex
   - postman
-  - qbitorrent
+  - qbittorrent
   - rectangle
   - spotify
-  - the_unarchiver
+  - the-unarchiver
   - visual-studio-code
-
-mas_email: andrewdchon@gmail.com
-mas_signin_dialog: true
-mas_upgrade_all_apps: true
-mas_installed_apps:
-  - { id: 869223134, name: 'KakaoTalk' }
-  -
