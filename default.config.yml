@@ -1,0 +1,85 @@
+---
+# Homebrew
+homebrew_clear_cache: true
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_installed_packages:
+  - bash
+  - chezmoi
+  - git
+  - gh
+  - n
+  - neovim
+  - ripgrep
+  - the_silver_searcher
+
+homebrew_cask_apps:
+  - 1password
+  - bbedit
+  - discord
+  - firefox
+  - google-chrome
+  - google-drive
+  - iina
+  - kitty
+  - mullvadvpn
+  - plex
+  - postman
+  - qbittorrent
+  - rectangle
+  - spotify
+  - the-unarchiver
+  - visual-studio-code
+
+# MAS Mac Apps
+mas_email: andrewdchon@gmail.com
+mas_signin_dialog: true
+mas_upgrade_all_apps: true
+mas_uninstalled_apps: []
+mas_installed_apps:
+  - { id: 869223134, name: 'KakaoTalk' }
+
+# Dock
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: false
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+  - Safari
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - Music
+  - News
+  - 'System Preferences'
+
+dockitems_persist:
+  - name: Messages
+    path: '/Applications/Messages.app/'
+    pos: 2
+  - name: Mail
+    path: '/Applications/Mail.app/'
+    pos: 3
+  - name: '1Password 7'
+    path: '/Applications/1Password 7.app/'
+    pos: 4
+  - name: 'Firefox'
+    path: '/Applications/Firefox.app/'
+    pos: 5
+  - name: 'Spotify'
+    path: '/Applications/Spotify.app/'
+    pos: 6
+  - name: 'Visual Studio Code'
+    path: '/Applications/Visual Studio Code.app/'
+    pos: 7
+  - name: 'kitty'
+    path: '/Applications/kitty.app/'
+    pos: 8
