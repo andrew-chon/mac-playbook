@@ -21,7 +21,7 @@ homebrew_cask_apps:
   - mullvadvpn
   - plex
   - postman
-  - qbitorrent
+  - qbittorrent
   - rectangle
   - spotify
   - the-unarchiver
