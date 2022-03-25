@@ -49,7 +49,7 @@ mas_installed_apps:
 
 # Dock
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
+configure_dock: true
 dockitems_remove:
   - Launchpad
   - TV
@@ -94,7 +94,13 @@ dockitems_persist:
 osx_script: "'{{ playbook_dir }}/tasks/.osx'"
 
 # Extra packages
-npm_packages: []
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
+npm_packages:
+  - name: '@fsouza/prettierd'
+    state: latest
+  - name: eslint_d
+    state: latest
+  - name: git-split-diffs
+    state: latest
