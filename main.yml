@@ -20,3 +20,11 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+
+  tasks:
+    - import_tasks: tasks/osx.yml
+      when: configure_osx
+      tags: ['osx']
+
+    - import_tasks: tasks/extra-packages.yml
+      tags: ['extra-packages']
