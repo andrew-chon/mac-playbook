@@ -9,32 +9,29 @@ homebrew_taps:
   - homebrew/cask
 
 homebrew_installed_packages:
-  - bash
   - chezmoi
   - git
-  - gh
-  - n
   - neovim
   - ripgrep
   - romkatv/powerlevel10k/powerlevel10k
-  - the_silver_searcher
   - zsh-autosuggestions
+  - zsh
 
 homebrew_cask_apps:
   - 1password
+  - alacritty
+  - appcleaner
   - discord
   - firefox
   - google-chrome
   - google-drive
   - iina
-  - kitty
+  - insomnia
   - mullvadvpn
-  - plex
-  - postman
+  - obsidian
   - qbittorrent
   - rectangle
   - spotify
-  - sublime-text
   - the-unarchiver
   - visual-studio-code
 
@@ -42,10 +39,15 @@ homebrew_cask_apps:
 mas_email: andrewdchon@gmail.com
 mas_signin_dialog: true
 mas_upgrade_all_apps: true
-mas_uninstalled_apps: []
+mas_uninstalled_apps: 
+  - { id: 408981434, name: "iMovie" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 682658836, name: "GarageBand" }
 mas_installed_apps:
   - { id: 869223134, name: 'KakaoTalk' }
-  - { id: 1451685025, name: 'WireGuard' }
+  - { id: 1502839586, name: 'Hand Mirror'}
+  - { id: 1475387142, name: 'TailScale'}
+
 
 # Dock
 # Set to 'true' to configure the Dock via dockutil.
@@ -74,8 +76,8 @@ dockitems_persist:
   - name: Mail
     path: '/Applications/Mail.app/'
     pos: 3
-  - name: '1Password 7'
-    path: '/Applications/1Password 7.app/'
+  - name: '1Password'
+    path: '/Applications/1Password.app/'
     pos: 4
   - name: 'Firefox'
     path: '/Applications/Firefox.app/'
@@ -86,8 +88,8 @@ dockitems_persist:
   - name: 'Visual Studio Code'
     path: '/Applications/Visual Studio Code.app/'
     pos: 7
-  - name: 'kitty'
-    path: '/Applications/kitty.app/'
+  - name: 'Alacritty'
+    path: '/Applications/Alacritty.app/'
     pos: 8
 
 # OSX Defaults
@@ -98,9 +100,5 @@ osx_script: "'{{ playbook_dir }}/tasks/.osx'"
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
 npm_packages:
-  - name: '@fsouza/prettierd'
-    state: latest
-  - name: eslint_d
-    state: latest
   - name: git-split-diffs
     state: latest
