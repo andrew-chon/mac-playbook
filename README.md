@@ -4,7 +4,7 @@ Automates mac setup with Ansible. Should be idempotent.
 
 ## Installation
 1. Go through initial setup, don't log into iCloud from setup.
-2. Log into iCloud and Mac App Store once at the desktop.  Airplay share 1Password link to macbook for easier login.
+2. Log into iCloud and Mac App Store once at the desktop.  Air drop 1Password link to macbook for easier login.
 3. Install apple's command line tools with `xcode-select --install`
 4. Install Ansible
    1. Run the following command to add Python 3 to your $PATH: `export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"`
@@ -40,7 +40,7 @@ For things that I haven't gotten around to figure out how to automate with Ansib
   - zsh-autocomplete
     - `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
 
-### Apps to uninstall'
+### Apps to uninstall
 
 - Freeform
 - Podcasts
