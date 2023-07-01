@@ -12,6 +12,7 @@ homebrew_installed_packages:
   - chezmoi
   - git
   - neovim
+  - node
   - ripgrep
   - romkatv/powerlevel10k/powerlevel10k
   - zsh-autosuggestions
@@ -19,7 +20,6 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - 1password
-  - alacritty
   - appcleaner
   - discord
   - firefox
@@ -34,20 +34,20 @@ homebrew_cask_apps:
   - spotify
   - the-unarchiver
   - visual-studio-code
+  - wezterm
 
 # MAS Mac Apps
 mas_email: andrewdchon@gmail.com
 mas_signin_dialog: true
 mas_upgrade_all_apps: true
-mas_uninstalled_apps: 
+mas_uninstalled_apps:
   - { id: 408981434, name: "iMovie" }
   - { id: 409183694, name: "Keynote" }
   - { id: 682658836, name: "GarageBand" }
 mas_installed_apps:
-  - { id: 869223134, name: 'KakaoTalk' }
-  - { id: 1502839586, name: 'Hand Mirror'}
-  - { id: 1475387142, name: 'TailScale'}
-
+  - { id: 869223134, name: "KakaoTalk" }
+  - { id: 1502839586, name: "Hand Mirror" }
+  - { id: 1475387142, name: "TailScale" }
 
 # Dock
 # Set to 'true' to configure the Dock via dockutil.
@@ -56,7 +56,7 @@ dockitems_remove:
   - Launchpad
   - TV
   - Podcasts
-  - 'App Store'
+  - "App Store"
   - Safari
   - Maps
   - Photos
@@ -67,30 +67,34 @@ dockitems_remove:
   - Notes
   - Music
   - News
-  - 'System Preferences'
+  - "System Settings"
+  - Freeform
 
 dockitems_persist:
   - name: Messages
-    path: '/Applications/Messages.app/'
+    path: "/Applications/Messages.app/"
     pos: 2
   - name: Mail
-    path: '/Applications/Mail.app/'
+    path: "/Applications/Mail.app/"
     pos: 3
-  - name: '1Password'
-    path: '/Applications/1Password.app/'
+  - name: 1Password
+    path: "/Applications/1Password.app/"
     pos: 4
-  - name: 'Firefox'
-    path: '/Applications/Firefox.app/'
+  - name: Firefox
+    path: "/Applications/Firefox.app/"
     pos: 5
-  - name: 'Spotify'
-    path: '/Applications/Spotify.app/'
+  - name: Spotify
+    path: "/Applications/Spotify.app/"
     pos: 6
-  - name: 'Visual Studio Code'
-    path: '/Applications/Visual Studio Code.app/'
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
     pos: 7
-  - name: 'Alacritty'
-    path: '/Applications/Alacritty.app/'
+  - name: WezTerm
+    path: "/Applications/WezTerm.app/"
     pos: 8
+  - name: Discord
+    path: "/Applications/Discord.app/"
+    pos: 9
 
 # OSX Defaults
 osx_script: "'{{ playbook_dir }}/tasks/.osx'"
