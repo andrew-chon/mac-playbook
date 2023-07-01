@@ -7,7 +7,7 @@ Automates mac setup with Ansible. Should be idempotent.
 2. Log into iCloud and Mac App Store once at the desktop.  Air drop 1Password link to macbook for easier login.
 3. Install apple's command line tools with `xcode-select --install`
 4. Install Ansible
-   1. Run the following command to add Python 3 to your $PATH: `export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"`
+   1. Run the following command to add Python 3 to your $PATH: `export PATH="$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:$PATH"`
    2. Upgrade Pip: `sudo pip3 install --upgrade pip`
    3. Install Ansible: `pip3 install ansible`
 5. Clone or download this repository to your local drive
