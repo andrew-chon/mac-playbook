@@ -19,6 +19,9 @@ Automates mac setup with Ansible. Should be idempotent.
 
 For things that I haven't gotten around to figure out how to automate with Ansible
 
+### Set up 1Password
+- Go to settings -> developer -> set up ssh agent
+
 ### Install dot files
 
 1. Run `chezmoi init git@github.com/andrew-chon/dotfiles.git` to install dotfiles for the first time
@@ -40,8 +43,6 @@ For things that I haven't gotten around to figure out how to automate with Ansib
   - zsh-autocomplete
     - `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
 
-### Set up 1Password
-- Go to settings -> developer -> set up ssh agent
 
 ### Apps to uninstall
 
