@@ -28,6 +28,8 @@ defaults write com.apple.controlcenter.plist Bluetooth -int 18
 # Show volume in menu bar
 defaults write com.apple.controlcenter.plist Sound -int 18
 
+# Disable recents in dock
+defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
