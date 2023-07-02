@@ -28,9 +28,9 @@ For things that I haven't gotten around to figure out how to automate with Ansib
 - Go to settings -> developer -> set up ssh agent
 
 ### Install dot files
-
-1. Run `chezmoi init git@github.com:andrew-chon/dotfiles.git` to install dotfiles for the first time
-2. Run `chezmoi update` to pull changes from the repo and apply them
+1. Run `export PATH=/opt/homebrew/bin:$PATH` to  temp fix brew paths
+2. Run `chezmoi init git@github.com:andrew-chon/dotfiles.git` to install dotfiles for the first time
+3. Run `chezmoi update` to pull changes from the repo and apply them
 
 `chezmoi add ~/.<file>` to add to chezmoi  
 `chezmoi edit ~/.<file>` to edit file  
