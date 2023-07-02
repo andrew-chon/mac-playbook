@@ -29,7 +29,7 @@ For things that I haven't gotten around to figure out how to automate with Ansib
 
 ### Install dot files
 
-1. Run `chezmoi init git@github.com:andrew-chon/mac-playbook.git` to install dotfiles for the first time
+1. Run `chezmoi init git@github.com:andrew-chon/dotfiles.git` to install dotfiles for the first time
 2. Run `chezmoi update` to pull changes from the repo and apply them
 
 `chezmoi add ~/.<file>` to add to chezmoi  
