@@ -14,12 +14,17 @@ Automates mac setup with Ansible. Should be idempotent.
 6. `cd` into the folder and run `ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
 7. Run `ansible-playbook main.yml --ask-become-pass` inside this directory. Enter your macOS account password when prompted for the 'BECOME' password.
    > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
-8. Restart mac for system setting changes to take effect.
+8. Allow apple watch to unlock mac
+9. Restart mac for system setting changes to take effect.
 ## Post Install
 
 For things that I haven't gotten around to figure out how to automate with Ansible
 
+### Keyboard
+- Change caps lock to escape
+
 ### Set up 1Password
+- Unlock with Apple watch
 - Go to settings -> developer -> set up ssh agent
 
 ### Install dot files
