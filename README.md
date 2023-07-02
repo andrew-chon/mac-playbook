@@ -40,6 +40,9 @@ For things that I haven't gotten around to figure out how to automate with Ansib
   - zsh-autocomplete
     - `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
 
+### Set up 1Password
+- Go to settings -> developer -> set up ssh agent
+
 ### Apps to uninstall
 
 - Freeform
