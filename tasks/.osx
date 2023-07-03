@@ -29,7 +29,16 @@ defaults write com.apple.controlcenter.plist Bluetooth -int 18
 defaults write com.apple.controlcenter.plist Sound -int 18
 
 # Disable recents in dock
-defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
+defaults write com.apple.dock "show-recents" -bool "false"
+
+# Make dock icons a little smaller
+defaults write com.apple.dock "tilesize" -int "48"
+
+# Autohide dock
+defaults write com.apple.dock "autohide" -bool "true"
+
+# Put it on the left
+defaults write com.apple.dock "orientation" -string "left" && killall Dock
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
