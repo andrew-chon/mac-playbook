@@ -13,6 +13,7 @@ homebrew_installed_packages:
   - go
   - neovim
   - node
+  - ripgrep // needed to neovim telescope
   - romkatv/powerlevel10k/powerlevel10k
   - rust
   - zsh
