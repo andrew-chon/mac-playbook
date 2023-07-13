@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - ripgrep // needed to neovim telescope
   - romkatv/powerlevel10k/powerlevel10k
   - rust
+  - zellij
   - zsh
   - zsh-autosuggestions
 
