@@ -12,13 +12,8 @@ homebrew_installed_packages:
   - git
   - go
   - neovim
-  - node
-  - ripgrep // needed to neovim telescope
-  - romkatv/powerlevel10k/powerlevel10k
+  - n
   - rust
-  - zellij
-  - zsh
-  - zsh-autosuggestions
 
 homebrew_cask_apps:
   - 1password
@@ -26,13 +21,10 @@ homebrew_cask_apps:
   - appcleaner
   - discord
   - firefox
-  - font-jetbrains-mono-nerd-font
   - ghostty
   - google-chrome
   - google-drive
   - iina
-  - insomnia
-  - mullvadvpn
   - obsidian
   - qbittorrent
   - rectangle
