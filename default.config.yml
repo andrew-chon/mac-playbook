@@ -99,6 +99,6 @@ osx_script: "'{{ playbook_dir }}/tasks/.osx'"
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
-npm_packages:
-  - name: git-split-diffs
-    state: latest
+# npm_packages:
+#   - name: git-split-diffs
+#     state: latest
