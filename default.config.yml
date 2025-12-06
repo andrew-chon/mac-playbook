@@ -27,6 +27,7 @@ homebrew_cask_apps:
   - discord
   - firefox
   - font-jetbrains-mono-nerd-font
+  - ghostty
   - google-chrome
   - google-drive
   - iina
@@ -38,7 +39,6 @@ homebrew_cask_apps:
   - spotify
   - the-unarchiver
   - visual-studio-code
-  - wezterm
 
 # MAS Mac Apps
 mas_email: andrewdchon@gmail.com
